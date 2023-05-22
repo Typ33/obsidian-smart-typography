@@ -269,4 +269,10 @@ export const fractionRules: InputRule[] = [
     to: "⅒",
     contextMatch: /(?:^|\s)1\/1$/,
   },
+    {
+    trigger: "6",
+    from: "1/16",
+    to: "¹/₁₆",
+    contextMatch: /(?:^|\s)1\/1$/,
+  },
 ];
